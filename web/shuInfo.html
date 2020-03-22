@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #main {
+            width: 500px;
+            height: 500px;
+        }
+    </style>
+</head>
+<body>
+<div id="main"></div>
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/echarts.js"></script>
+<script>
+    var myChart = echarts.init(document.getElementById("main"));
+    $.ajax({
+        url: 'stuInfo',
+        success: function (data) {
+            var year = [];
+            var count = [];
+            for (var i in data) {
+                year.push(i);
+                count.push(data[i])
+            }
+            var option = info(year, count);
+            myChart.setOption(option);
+        }
+    })
+
+    function info(year, count) {
+        var option = {
+            xAxis: {
+                type: 'category',
+                data: year
+            },
+            yAxis: {
+                type: 'value'
+            },
+            series: [{
+                data: count,
+                type: 'bar',
+                showBackground: true,
+                backgroundStyle: {
+                    color: 'rgba(220, 220, 220, 0.8)'
+                }
+            }]
+        };
+        return option;
+    }
+</script>
+</body>
+</html>

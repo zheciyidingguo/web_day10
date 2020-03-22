@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        table {
+            width: 50%;
+        }
+
+        #studentList {
+            border-spacing: 0
+        }
+
+        #stuBody td {
+            border: 1px solid black;
+        }
+
+        #box {
+            margin-top: 10px;
+        }
+
+        input {
+            margin-top: 2px;
+        }
+
+        #addInfo {
+            position: absolute;
+        }
+
+        #del {
+            position: absolute;
+        }
+
+        #up {
+            position: absolute;
+        }
+
+        #query {
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+<table id="studentList">
+    <thead>
+    <th>姓名</th>
+    <th>年龄</th>
+    <th>性别</th>
+    <th>上传图片</th>
+    <th>
+    <th>
+    </thead>
+    <tbody id="stuBody">
+
+    </tbody>
+</table>
+<button id="add">增加</button>
+<button id="querys">查询</button>
+<button id="update">修改</button>
+<button id="delete">删除</button>
+<div id="box">
+    <form id="addInfo" action="#" style="display: none">
+        <input name="mark" value="add" hidden>
+        <input name="name" placeholder="姓名"><br>
+        <input name="age" placeholder="年龄"><br>
+        <input name="xb" placeholder="性别"><br>
+        <input id="ad" type="button" value="添加">
+    </form>
+    <form id="del" action="#" style="display: none">
+        <input name="mark" value="del" style="display: none">
+        <input name="test" placeholder="姓名|年龄|性别">
+        <input id="d" type="button" value="删除">
+    </form>
+    <form id="up" action="#" style="display: none">
+        <input name="mark" value="up" style="display: none">
+        <input name="test" placeholder="请填入如：原字段：新字段">
+        <input id="u" type="button" value="修改">
+    </form>
+    <form id="query" action="#" style="display: none">
+        <input name="mark" value="query" style="display: none">
+        <p>不输入默认为查所有，可输入姓名包含的字查询，也可输入如：10-15查询年龄段</p>
+        <input name="test">
+        <input id="q" type="button" value="查询">
+    </form>
+</div>
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript">
+    $("#add").click(function () {
+        $("#addInfo").css("display", "block");
+        $("#del").css("display", "none");
+        $("#up").css("display", "none");
+        $("#query").css("display", "none");
+    });
+    $("#delete").click(function () {
+        $("#addInfo").css("display", "none");
+        $("#del").css("display", "block");
+        $("#up").css("display", "none");
+        $("#query").css("display", "none");
+    });
+    $("#querys").click(function () {
+        $("#addInfo").css("display", "none");
+        $("#del").css("display", "none");
+        $("#up").css("display", "none");
+        $("#query").css("display", "block");
+    });
+    $("#update").click(function () {
+        $("#addInfo").css("display", "none");
+        $("#del").css("display", "none");
+        $("#up").css("display", "block");
+        $("#query").css("display", "none");
+    });
+    $("#ad").click(function () {
+        var dataValue = $("#addInfo").serialize();
+        updateQuery(dataValue);
+    });
+    $("#d").click(function () {
+        var dataValue = $("#del").serialize();
+        updateQuery(dataValue);
+    });
+    $("#up").click(function () {
+        var dataValue = $("#up").serialize();
+        updateQuery(dataValue);
+    });
+    $("#q").click(function () {
+        var dataValue = $("#query").serialize();
+        updateQuery(dataValue);
+    });
+
+    function updateQuery(dataValue) {
+        $.ajax({
+            url: "studentInfo",
+            type: 'post',
+            data: dataValue,
+            success: function (data) {
+                console.log(data);
+                $(".stuValue").remove();
+                $("#addTable").empty();
+                //遍历json数组
+                for (var i in data) {
+                    var html = "<tr class='stuValue'>";
+                    html += "<td>" + data[i].name + "</td>";
+                    html += "<td>" + data[i].age + "</td>";
+                    html += "<td>" + data[i].sex + "</td>";
+                    html += "<td>" + "<form action='downPhoto' method='post' enctype='multipart/form-data'>" +
+                        "<input name='photo' type='file'>" + "<button>上传</button>" + "</form>" + "</td>";
+                    html += "</tr>";
+                    $("#stuBody").append(html);
+                }
+            }
+        })
+    }
+</script>
+</body>
+</html>
