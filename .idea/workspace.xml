@@ -7,114 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4466e3e-b376-4b34-b586-32a45be7b4aa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/web_day10_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/dbcp.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_day10_war_exploded/Upload.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_day10_war_exploded/WEB-INF/classes/META-INF/web_day10.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_day10_war_exploded/WEB-INF/classes/Upload/Upload.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_day10_war_exploded/WEB-INF/classes/c3p0-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_day10_war_exploded/WEB-INF/classes/dbcp_config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_day10_war_exploded/WEB-INF/classes/echarts/StuInfo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_day10_war_exploded/WEB-INF/classes/homework/DownPhoto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_day10_war_exploded/WEB-INF/classes/homework/StudentInfo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_day10_war_exploded/WEB-INF/classes/poi/PoiTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_day10_war_exploded/WEB-INF/classes/poi/dao/PageDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_day10_war_exploded/WEB-INF/classes/poi/dao/impl/Dao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_day10_war_exploded/WEB-INF/classes/poi/po/Student.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_day10_war_exploded/WEB-INF/lib/annotations-api.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_day10_war_exploded/WEB-INF/lib/c3p0-0.9.5.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_day10_war_exploded/WEB-INF/lib/catalina-ant.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_day10_war_exploded/WEB-INF/lib/catalina-ha.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_day10_war_exploded/WEB-INF/lib/catalina-ssi.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_day10_war_exploded/WEB-INF/lib/catalina-storeconfig.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_day10_war_exploded/WEB-INF/lib/catalina-tribes.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_day10_war_exploded/WEB-INF/lib/catalina.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_day10_war_exploded/WEB-INF/lib/commons-collections4-4.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_day10_war_exploded/WEB-INF/lib/commons-dbcp2-2.2.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_day10_war_exploded/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_day10_war_exploded/WEB-INF/lib/commons-pool2-2.5.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_day10_war_exploded/WEB-INF/lib/ecj-4.13.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_day10_war_exploded/WEB-INF/lib/el-api.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_day10_war_exploded/WEB-INF/lib/fastjson-1.2.66.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_day10_war_exploded/WEB-INF/lib/jasper-el.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_day10_war_exploded/WEB-INF/lib/jasper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_day10_war_exploded/WEB-INF/lib/jaspic-api.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_day10_war_exploded/WEB-INF/lib/jsp-api.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_day10_war_exploded/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_day10_war_exploded/WEB-INF/lib/mchange-commons-java-0.2.11.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_day10_war_exploded/WEB-INF/lib/mysql-connector-java-5.1.26.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_day10_war_exploded/WEB-INF/lib/poi-3.16.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_day10_war_exploded/WEB-INF/lib/poi-examples-3.16.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_day10_war_exploded/WEB-INF/lib/poi-excelant-3.16.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_day10_war_exploded/WEB-INF/lib/poi-ooxml-3.16.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_day10_war_exploded/WEB-INF/lib/poi-ooxml-schemas-3.16.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_day10_war_exploded/WEB-INF/lib/poi-scratchpad-3.16.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_day10_war_exploded/WEB-INF/lib/servlet-api.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_day10_war_exploded/WEB-INF/lib/tomcat-api.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_day10_war_exploded/WEB-INF/lib/tomcat-coyote.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_day10_war_exploded/WEB-INF/lib/tomcat-dbcp.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_day10_war_exploded/WEB-INF/lib/tomcat-i18n-cs.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_day10_war_exploded/WEB-INF/lib/tomcat-i18n-de.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_day10_war_exploded/WEB-INF/lib/tomcat-i18n-es.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_day10_war_exploded/WEB-INF/lib/tomcat-i18n-fr.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_day10_war_exploded/WEB-INF/lib/tomcat-i18n-ja.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_day10_war_exploded/WEB-INF/lib/tomcat-i18n-ko.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_day10_war_exploded/WEB-INF/lib/tomcat-i18n-pt-BR.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_day10_war_exploded/WEB-INF/lib/tomcat-i18n-ru.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_day10_war_exploded/WEB-INF/lib/tomcat-i18n-zh-CN.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_day10_war_exploded/WEB-INF/lib/tomcat-jdbc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_day10_war_exploded/WEB-INF/lib/tomcat-jni.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_day10_war_exploded/WEB-INF/lib/tomcat-util-scan.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_day10_war_exploded/WEB-INF/lib/tomcat-util.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_day10_war_exploded/WEB-INF/lib/tomcat-websocket.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_day10_war_exploded/WEB-INF/lib/websocket-api.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_day10_war_exploded/WEB-INF/lib/xmlbeans-2.6.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_day10_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_day10_war_exploded/homework.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_day10_war_exploded/image/1584864978526.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_day10_war_exploded/image/1584865599055.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_day10_war_exploded/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_day10_war_exploded/js/echarts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_day10_war_exploded/js/jquery-3.2.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_day10_war_exploded/shuInfo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/web_day10/META-INF/web_day10.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/web_day10/Upload/Upload.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/web_day10/c3p0-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/web_day10/dbcp_config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/web_day10/echarts/StuInfo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/web_day10/homework/DownPhoto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/web_day10/homework/StudentInfo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/web_day10/poi/PoiTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/web_day10/poi/dao/PageDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/web_day10/poi/dao/impl/Dao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/web_day10/poi/po/Student.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/c3p0-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/dbcp_config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Upload/Upload.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/echarts/StuInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework/DownPhoto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework/StudentInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poi/PoiTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poi/dao/PageDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poi/dao/impl/Dao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poi/po/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unnamed.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/Upload.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/homework.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/image/1584864978526.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/image/1584865599055.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/echarts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/jquery-3.2.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/shuInfo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_day10.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +59,7 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -308,7 +201,7 @@
       <workItem from="1584864164839" duration="1999000" />
       <workItem from="1584875299449" duration="2121000" />
       <workItem from="1584877684002" duration="58000" />
-      <workItem from="1584878049009" duration="620000" />
+      <workItem from="1584878049009" duration="1339000" />
     </task>
     <task id="LOCAL-00001">
       <created>1584877182720</created>
@@ -324,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584878154880</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="实验项目">
+      <created>1584878956434</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1584878956434</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -332,7 +232,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="实验项目" />
+    <option name="LAST_COMMIT_MESSAGE" value="实验项目" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584675155642">
@@ -343,10 +245,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1584691972473" />
-    <state x="434" y="0" width="791" height="802" key="CommitChangelistDialog2" timestamp="1584878253503">
+    <state x="434" y="0" width="791" height="802" key="CommitChangelistDialog2" timestamp="1584878949638">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="434" y="0" width="791" height="802" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1584878253503" />
+    <state x="434" y="0" width="791" height="802" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1584878949638" />
     <state x="445" y="153" key="FileChooserDialogImpl" timestamp="1584878666488">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -419,10 +321,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="370" y="123" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1584877702386" />
-    <state x="249" y="0" key="SettingsEditor" timestamp="1584877250751">
+    <state x="249" y="0" key="SettingsEditor" timestamp="1584879355120">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1584877250751" />
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1584879355120" />
+    <state x="173" y="134" key="Vcs.Push.Dialog.v2" timestamp="1584879049288">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="173" y="134" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1584879049288" />
     <state x="224" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1584877684198">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
